@@ -1,0 +1,29 @@
+{
+  "name": "terminus",
+  "version": "1.0.0",
+  "description": "API tests for terminus",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "keywords": [
+    "testing",
+    "the",
+    "apis",
+    "of",
+    "terminus"
+  ],
+  "author": "ravikiran padki",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "supertest-as-promised": "^4.0.2"
+  }
+}
